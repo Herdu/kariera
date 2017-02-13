@@ -26,6 +26,7 @@ a:hover{
     background-color: #4eb7ca;
     color: white !important;
     padding: 10px 0px 10px 10px;
+    text-align: center;
 
 
 }
@@ -355,6 +356,42 @@ connection{
     height: 40px;
 }
 
+#circle-1{
+    color: #ffd125;
+}
 
+#circle-2{
+    color: #df6eff;
+}
 
+#circle-3{
+    color: #3bff46;
+}
+
+#circle-4{
+    color: #45ecff;
+}
+
+#circle-5{
+    color: #ff6773;
+}
+#circle-6{
+    color: #7f99ff;
+}
+
+#contact-row{
+    padding-top: 30px;
+}
+#contact-details{
+    margin-top: 100px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    margin-top: 3px;
+    margin-left: 50px;
+}
 
