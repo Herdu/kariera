@@ -10,8 +10,8 @@ a:hover{
 
 .center{
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .navbar{
@@ -404,8 +404,12 @@ connection{
     color: black;
     background-color: #4eb7ca;
 }
+.navbar-right{
+    margin-top: 0px;
+}
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:hover{
+
     height: 40px;
     background-color: white;
 
