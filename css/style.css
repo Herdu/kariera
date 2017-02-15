@@ -395,3 +395,18 @@ connection{
     margin-left: 50px;
 }
 
+
+.navbar-toggle{
+    color: black;
+    background-color: #4eb7ca;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    color: black;
+    background-color: #4eb7ca;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:hover{
+    height: 40px;
+    background-color: white;
+
+}
