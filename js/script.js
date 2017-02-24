@@ -56,3 +56,33 @@ HTMLElement.prototype.removeClass = function(remove) {
 
 displaySlajder();
 setInterval(displaySlajder,dlugosc_slajdu);
+
+
+
+var currentMap = 1;
+var changeMap =  function(){
+
+    currentMap = this.mapId;
+
+    $('#map-container').removeClass('map-background-poznan');
+    $('#map-container').removeClass('map-background-poland');
+    $('#map-container').removeClass('map-background-europe');
+    console.log("current map = ",currentMap);
+    switch(currentMap){
+        case 1:
+            $('#map-container').addClass('map-background-poznan');
+            break;
+        case 2:
+            $('#map-container').addClass('map-background-poland');
+            break;
+        case 3:
+            $('#map-container').addClass('map-background-europe');
+            break;
+    }
+};
+
+document.getElementById("wczoraj-button").mapId = 1;
+document.getElementById("dzis-button").mapId = 2;
+document.getElementById("jutro-button").mapId = 3;
+
+$('.map-button').on("mouseover",changeMap);

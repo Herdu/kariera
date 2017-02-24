@@ -258,8 +258,13 @@ connection{
     display: none;
 }
 .slajder-text{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slajder-text>h3{
+    font-size: 20px;
+    margin 0;
 }
 .slajder-text>p{
     font-style: italic;
@@ -414,3 +419,100 @@ connection{
     background-color: white;
 
 }
+
+
+/* %%%%%%%%%%%%%%%% MAP %%%%%%%%%%%%%%%%% */
+
+#map-container{
+    min-height: 500px;
+    margin-left:auto;
+    margin-right: auto;
+
+    background-repeat: no-repeat;
+    width: 750px !important;
+    background-image: url('../image/map.jpg') !important;
+
+    -webkit-box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
+
+
+    z-index: 50;
+
+}
+
+.map-background-poznan{
+    background-size: 5000px auto !important;
+    background-position: -2700px -1450px;
+    width: 100% !important;
+
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    z-index: 50;
+
+}
+
+/* Poznan
+
+ */
+
+.map-background-poland{
+    background-size: 3000px auto !important;
+    background-position: -1550px -750px;
+
+    width: 100% !important;
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+
+
+    z-index: 50;
+
+}
+
+.map-background-europe{
+    background-size: 100% auto !important;
+    background-position: 0 -30px;
+    border: none;
+    width: 100% !important;
+
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    z-index: 50;
+
+}
+
+.map-button{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 60;
+    top: 300px;
+    position: relative;
+    color: #c9302c;
+}
+.map-button:hover{
+    cursor: pointer;
+    color: red;
+}
+.map-div{
+    text-align: center;
+    position: relative;
+}
+.map-div>div{
+
+}
+
