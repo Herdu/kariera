@@ -434,23 +434,18 @@ connection{
 
 /* %%%%%%%%%%%%%%%% MAP %%%%%%%%%%%%%%%%% */
 
-#map-container{
-    min-height: 500px;
-    margin-left:auto;
+.map{
+    max-height: 500px;
+    width: auto;
+    margin-left: auto;
     margin-right: auto;
-
-    background-repeat: no-repeat;
-    width: 750px !important;
-    background-image: url('../image/map.jpg') !important;
-
-    -webkit-box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
-    -moz-box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
-    box-shadow: inset 0px 0px 36px 16px rgba(255,255,255,1);
-
-
-    z-index: 50;
-
+    display: none;
 }
+#map-poznan{
+    display: block;
+}
+
+/*
 
 .map-background-poznan{
     background-size: 5000px auto !important;
@@ -467,9 +462,6 @@ connection{
 
 }
 
-/* Poznan
-
- */
 
 .map-background-poland{
     background-size: 3000px auto !important;
@@ -503,27 +495,31 @@ connection{
     z-index: 50;
 
 }
-
-.map-button{
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 40px;
-    font-weight: 900;
-    z-index: 60;
-    top: 300px;
-    position: relative;
-    color: #c9302c;
-}
+*/
 .map-button:hover{
     cursor: pointer;
-    color: red;
 }
-.map-div{
+.map-button{
+    width: 100%;
+    background-color: blue;
+    display: inline-block;
     text-align: center;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
 }
-.map-div>div{
 
+.map-div div{
+    text-align: center;
 }
-
+#wczoraj-button{
+    background-color: #ff5900;
+}
+#dzis-button{
+    background-color: #ff0066;
+}
+#jutro-button{
+    background-color: blue;
+}

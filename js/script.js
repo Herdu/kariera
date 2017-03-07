@@ -60,23 +60,24 @@ setInterval(displaySlajder,dlugosc_slajdu);
 
 
 var currentMap = 1;
+
 var changeMap =  function(){
 
     currentMap = this.mapId;
 
-    $('#map-container').removeClass('map-background-poznan');
-    $('#map-container').removeClass('map-background-poland');
-    $('#map-container').removeClass('map-background-europe');
+    $('#map-poznan').css("display","none");
+    $('#map-poland').css("display","none");
+    $('#map-europe').css("display","none");
     console.log("current map = ",currentMap);
     switch(currentMap){
         case 1:
-            $('#map-container').addClass('map-background-poznan');
+            $('#map-poznan').css("display","block");
             break;
         case 2:
-            $('#map-container').addClass('map-background-poland');
+            $('#map-poland').css("display","block");
             break;
         case 3:
-            $('#map-container').addClass('map-background-europe');
+            $('#map-europe').css("display","block");
             break;
     }
 };
