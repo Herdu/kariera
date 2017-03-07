@@ -61,6 +61,13 @@ a:hover{
 }
 
 
+#media-container{
+
+    padding-top: 40px;
+}
+#media-container div{
+    min-height: 150px;
+}
 
 
 
@@ -202,9 +209,6 @@ connection{
     z-index: -1;
 }
 
-.ariera-software>h3{
-    z-index: 100;
-}
 
 .kariera-step>div{
     text-align: center;
@@ -215,10 +219,11 @@ connection{
     background-size:cover;
     background-position:center;
     position:relative;
+    min-height: 420px;
 }
 .kariera-image{
     width: auto;
-    height: 300px;
+    height: 200px;
 
     background-size: cover;
     background-position: center;
@@ -227,6 +232,7 @@ connection{
 
 #kariera-handlowiec{
     max-height: 250px;
+    max-width: 250px;
     padding-left: auto;
     padding-right: auto;
 }
@@ -243,8 +249,20 @@ connection{
     background-image: url("../image/kariera/media.jpg");
 }
 
+#kariera-team .kariera-image{
+    background-image: url("../image/kariera/team.jpg");
+}
+
 .kariera-step>div>p{
     padding: 5px;
+}
+
+.kariera-step>div>h3{
+    background-color: #000bff;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #map{
@@ -264,7 +282,7 @@ connection{
 
 .slajder-text>h3{
     font-size: 20px;
-    margin 0;
+    margin: 0;
 }
 .slajder-text>p{
     font-style: italic;
@@ -353,7 +371,6 @@ connection{
     text-align: center;
     padding: 10px;
     background-color: #4eb7ca;
-    box-sizing: border;
     border: solid white 15px;
     color: white;
 }
@@ -362,27 +379,21 @@ connection{
 }
 
 #circle-1{
-    color: #ffd125;
+    color: #000bff;
 }
 
 #circle-2{
-    color: #df6eff;
+    color: #ff5900;
 }
 
 #circle-3{
-    color: #3bff46;
+    color: #ff0066;
 }
 
 #circle-4{
-    color: #45ecff;
+    color: #25fc00;
 }
 
-#circle-5{
-    color: #ff6773;
-}
-#circle-6{
-    color: #7f99ff;
-}
 
 #contact-row{
     padding-top: 30px;
