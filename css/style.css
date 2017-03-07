@@ -289,9 +289,9 @@ connection{
 }
 .slajder>div>img{
     height: auto;
-    width: 100%;
-    max-width: 350px;
-    max-height: 350px;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -357,8 +357,7 @@ connection{
     color: white;
 }
 .thumbnail img{
-    max-height: 250px;
-    border: solid black 1px;
+    width: 100%;
 }
 .thumbnail .caption h3{
     color: white;
@@ -501,25 +500,50 @@ connection{
 }
 .map-button{
     width: 100%;
-    background-color: blue;
-    display: inline-block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
     color: white;
     font-weight: 700;
+    margin-bottom: 15px;
+    border: none !important;
+    font-size: 24px;
 }
+
+#wczoraj-button{
+   background-color: #f33900;
+}
+#dzis-button{
+    background-color: #c58600;
+}
+#jutro-button{
+    background-color: #04d600;
+}
+
+
 
 .map-div div{
     text-align: center;
 }
-#wczoraj-button{
-    background-color: #ff5900;
+
+
+
+.button-container {
+    position: relative;
+    min-height: 500px;
+
 }
-#dzis-button{
-    background-color: #ff0066;
+
+.button-container div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#jutro-button{
-    background-color: blue;
+
+.button-container h4{
+    color: black;
+    text-align: center;
 }
+
