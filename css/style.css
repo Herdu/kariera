@@ -296,7 +296,7 @@ connection{
     font-size: 18px;
     margin-top: 90px;
     margin-bottom: 30px;
-    height: 300px;
+
 }
 
 .slajder-text>h3{
@@ -339,6 +339,7 @@ connection{
 
 #under_slajder>div{
     top: -40px;
+
 }
 
 
