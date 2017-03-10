@@ -5,6 +5,7 @@
 body{
     color: #818181;
     top: 70px;
+    overflow-x: hidden;
 }
 
 .header-div{
@@ -290,10 +291,12 @@ connection{
     text-align: center;
     display: none;
 }
+
 .slajder-text{
     font-size: 18px;
     margin-top: 90px;
     margin-bottom: 30px;
+    height: 300px;
 }
 
 .slajder-text>h3{
@@ -306,8 +309,6 @@ connection{
 
 }
 .slajder>div>img{
-    height: auto;
-    width: auto;
     max-width: 300px;
     max-height: 300px;
     margin-left: auto;
