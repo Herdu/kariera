@@ -484,13 +484,13 @@ connection{
     background-size: contain;
 }
 .yesterday{
-    background: url('../image/map/3.png');
+    background: url('../image/map/3.jpg');
 
 }
 .today{
-    background: url('../image/map/2.png');
+    background: url('../image/map/2.jpg');
 }
 .tomorrow{
-    background: url('../image/map/1.png');
+    background: url('../image/map/1.jpg');
 }
 
