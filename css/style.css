@@ -1,3 +1,7 @@
+/*     main-aqua #4eb7ca; */
+
+
+
 body{
     color: #818181;
     top: 70px;
@@ -276,16 +280,19 @@ connection{
     display: none;
 }
 .slajder-text{
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 90px;
     margin-bottom: 30px;
 }
 
 .slajder-text>h3{
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
+    color: black;
 }
 .slajder-text>p{
     font-style: italic;
+
 }
 .slajder>div>img{
     height: auto;
@@ -359,6 +366,16 @@ connection{
 .thumbnail img{
     width: 100%;
 }
+
+#img-container{
+    text-align: center;
+}
+#img-container img{
+    max-width: 150px;
+    display: inline-block;
+
+}
+
 .thumbnail .caption h3{
     color: white;
 }
