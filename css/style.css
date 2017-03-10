@@ -41,7 +41,7 @@ a:hover{
     color: white !important;
     padding: 10px 0px 10px 10px;
     text-align: center;
-
+    z-index: 10;
 
 }
 
@@ -462,117 +462,35 @@ connection{
 
 /* %%%%%%%%%%%%%%%% MAP %%%%%%%%%%%%%%%%% */
 
-.map{
-    max-height: 500px;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: none;
+.over-map{
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
 }
-#map-poznan{
-    display: block;
-}
-
-/*
-
-.map-background-poznan{
-    background-size: 5000px auto !important;
-    background-position: -2700px -1450px;
-    width: 100% !important;
-
-
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-
-    z-index: 50;
+#our-map{
+    height: 500px;
 
 }
-
-
-.map-background-poland{
-    background-size: 3000px auto !important;
-    background-position: -1550px -750px;
-
-    width: 100% !important;
-
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-
-
-
-    z-index: 50;
-
+.map-container{
+    margin-top: 0;
+    padding: 0;
 }
 
-.map-background-europe{
-    background-size: 100% auto !important;
-    background-position: 0 -30px;
-    border: none;
-    width: 100% !important;
+.map-container div{
+    margin-left: 0;
+    margin-right: 0;
 
-
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-
-    z-index: 50;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.yesterday{
+    background: url('../image/map/3.png');
 
 }
-*/
-.map-button:hover{
-    cursor: pointer;
+.today{
+    background: url('../image/map/2.png');
 }
-.map-button{
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 15px;
-    border: none !important;
-    font-size: 24px;
-}
-
-#wczoraj-button{
-   background-color: #f33900;
-}
-#dzis-button{
-    background-color: #c58600;
-}
-#jutro-button{
-    background-color: #04d600;
-}
-
-
-
-.map-div div{
-    text-align: center;
-}
-
-
-
-.button-container {
-    position: relative;
-    min-height: 500px;
-
-}
-
-.button-container div {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button-container h4{
-    color: black;
-    text-align: center;
+.tomorrow{
+    background: url('../image/map/1.png');
 }
 
