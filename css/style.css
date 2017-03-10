@@ -14,7 +14,6 @@ body{
 }
 
 .container-fluid {
-
     margin-right: 0;
     margin-left: 0;
 }
@@ -42,8 +41,12 @@ a:hover{
     color: white !important;
     padding: 10px 0px 10px 10px;
     text-align: center;
+    min-height: 100px;
+    padding-top: 30px;
 
-
+}
+.page-header{
+    font-size: 40px !important;
 }
 
 .navbar-logo{
