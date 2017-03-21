@@ -376,7 +376,7 @@ connection{
     max-width: 160px;
     color: #4eb7ca;
     padding-bottom: 25px;
-    border-bottom: solid #4eb7ca 4px;
+    border-bottom: solid #4eb7ca 2px;
     margin-bottom: 50px;
 }
 
