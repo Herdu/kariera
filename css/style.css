@@ -3,9 +3,11 @@
 
 
 body{
-    color: #818181;
+    color: #343434;
     top: 70px;
     overflow-x: hidden;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .header-div{
@@ -249,6 +251,7 @@ connection{
     background-position:center;
     position:relative;
     min-height: 420px;
+
 }
 .kariera-image{
     width: auto;
@@ -284,6 +287,8 @@ connection{
 
 .kariera-step>div>p{
     padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .kariera-step>div>h3{
@@ -292,6 +297,10 @@ connection{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+#mail-address{
+    font-size: 20px;
 }
 
 #map{
@@ -350,11 +359,30 @@ connection{
     animation: fadeOut 1.0s ease-in 1 forwards;
 }
 
-#under_slajder>div{
+.no-top-margin>div{
     top: -40px;
+    margin-bottom: 0px;
 
 }
 
+.map-header>div>h2{
+    padding-top: 100px;
+}
+
+.meet-us>h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 160px;
+    color: #4eb7ca;
+    padding-bottom: 25px;
+    border-bottom: solid #4eb7ca 4px;
+    margin-bottom: 50px;
+}
+
+#team-image{
+    border-bottom: solid #4eb7ca 30px;
+}
 
 #co-robimy{
     text-align: center;
@@ -436,6 +464,14 @@ connection{
     color: #25fc00;
 }
 
+
+.about-us>h2{
+    color: black;
+}
+
+.about-us>p{
+    color: #343434;
+}
 
 #contact-row{
     padding-top: 30px;
