@@ -380,6 +380,10 @@ connection{
     margin-bottom: 50px;
 }
 
+.photo{
+    border-bottom: solid #4eb7ca 5px;
+}
+
 #team-image{
     border-bottom: solid #4eb7ca 30px;
 }
