@@ -55,6 +55,7 @@ a:hover{
     height: 100px;
     top: 0px;
     margin-top: 0px;
+    margin-left: auto;
 }
 
 .nav{
@@ -243,14 +244,14 @@ connection{
 
 .kariera-step>div{
     text-align: center;
-    background-color: #4eb7ca;
+    background-color: #0f8dff;
     color: white;
     margin-bottom: 30px;
     border: solid white 10px;
     background-size:cover;
     background-position:center;
     position:relative;
-    min-height: 420px;
+    min-height: 450px;
 
 }
 .kariera-image{
@@ -286,7 +287,7 @@ connection{
 }
 
 .kariera-step>div>p{
-    padding: 5px;
+    padding: 10px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -490,7 +491,7 @@ connection{
     height: 61px;
     width: auto;
     margin-top: 3px;
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 
