@@ -604,3 +604,53 @@ connection{
 }
 
 
+
+
+#img-praca{
+    max-height: 500px;
+}
+
+
+.row[id=categories-buttons]{
+    text-align: center;
+}
+.row[id=categories-buttons] > div > button{
+    background-color: #4eb7ca;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    margin-top: 30px;
+    border: none;
+}
+.row[id=categories-buttons] > div > button:{
+    border: none;
+}
+
+button:focus {outline:0;}
+.people > div{
+    color: white;
+    margin: 0;
+    overflow: auto;
+}
+
+.people > div > img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.description{
+    background-color: #4eb7ca;
+    text-align: center;
+}
+.description > h4{
+    margin: 0;
+}
+
+.people{
+    display: none;
+}

@@ -82,3 +82,24 @@ var displayMap = function(){
 }
 
 setInterval(displayMap,dlugosc_mapy);
+
+
+$('#sales-btn').on("click", function(){
+    var temp = ($('.sale').css("display") == "block" ? "none" : "block");
+    $('.people').css("display","none");
+    $('.sale').css("display",temp);
+
+});
+
+$('#management-btn').on("click", function(){
+    var temp = ($('.management').css("display") == "block" ? "none" : "block");
+    $('.people').css("display","none");
+    $('.management').css("display", temp);
+
+});
+
+$('#administration-btn').on("click", function(){
+    var temp = ($('.administration').css("display") == "block" ? "none" : "block");
+    $('.people').css("display","none");
+    $('.administration').css("display",temp);
+});
