@@ -59,24 +59,25 @@ setInterval(displaySlajder,dlugosc_slajdu);
 
 /** MAP interval
  **/
-var dlugosc_mapy = 2000;
+var dlugosc_mapy = 4000;
 var currentMap = 1;
 
 var displayMap = function(){
     currentMap = (currentMap%3)+1;
     console.log(currentMap);
+    $(".map-description").css("display","none");
     switch (currentMap){
         case 1:
             $('#our-map').attr("class","yesterday");
-            $("#map-description").html("Wczoraj");
+            $("#map-description-yesterday").fadeIn();
             break;
         case 2:
             $('#our-map').attr("class","today");
-            $("#map-description").html("Dziś");
+            $("#map-description-today").fadeIn();
             break;
         case 3:
             $('#our-map').attr("class","tomorrow");
-            $("#map-description").html("Jutro");
+            $("#map-description-tomorrow").fadeIn();
             break;
     }
 }
@@ -85,21 +86,21 @@ setInterval(displayMap,dlugosc_mapy);
 
 
 $('#sales-btn').on("click", function(){
-    var temp = ($('.sale').css("display") == "block" ? "none" : "block");
-    $('.people').css("display","none");
-    $('.sale').css("display",temp);
+    $('.management').fadeOut();
+    $('.administration').fadeOut();
+    $('.sale').fadeToggle();
 
 });
 
 $('#management-btn').on("click", function(){
-    var temp = ($('.management').css("display") == "block" ? "none" : "block");
-    $('.people').css("display","none");
-    $('.management').css("display", temp);
+    $('.sale').fadeOut();
+    $('.administration').fadeOut();
+    $('.management').fadeToggle();
 
 });
 
 $('#administration-btn').on("click", function(){
-    var temp = ($('.administration').css("display") == "block" ? "none" : "block");
-    $('.people').css("display","none");
-    $('.administration').css("display",temp);
+    $('.management').fadeOut();
+    $('.sale').fadeOut();
+    $('.administration').fadeToggle();
 });

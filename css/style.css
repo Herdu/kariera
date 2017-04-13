@@ -532,18 +532,33 @@ connection{
 #our-map{
     height: 500px;
 
+
+
 }
 .map-container{
     margin-top: 0;
     padding: 0;
 }
-#map-description{
+.map-description{
     color: #4eb7ca;
     font-weight: 700;
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
+    display: none;
 }
+#map-description-yesterday{
+    display: block;
+    font-weight: 600;
+}
+#map-description-today{
+    font-weight: 700;
+}
+#map-description-tomorrow{
+    font-weight: 800;
+}
+
+
 
 .map-container div{
     margin-left: 0;
@@ -625,7 +640,8 @@ connection{
     margin-top: 30px;
     border: none;
 }
-.row[id=categories-buttons] > div > button:{
+.row[id=categories-buttons] > div > button:active{
+    background-color: #3465a8;
     border: none;
 }
 
@@ -644,11 +660,15 @@ button:focus {outline:0;}
     height: auto;
 }
 .description{
-    background-color: #4eb7ca;
+    position: relative;
+    top: -3px;
+    background-color: #3465a8;
     text-align: center;
+    overflow: auto;
 }
 .description > h4{
-    margin: 0;
+    margin: 5px;
+    font-weight: 700;
 }
 
 .people{
