@@ -640,9 +640,33 @@ connection{
     margin-top: 30px;
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    .row[id=categories-buttons] > div > button {
+        font-size: 15px !important;
+        width: 150px;
+        height: 65px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .row[id=categories-buttons] > div > button {
+        font-size: 10px !important;
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+
+
 .row[id=categories-buttons] > div > button:active{
     background-color: #3465a8;
     border: none;
+}
+.row[id=categories-buttons] > div > button:hover{
+    background-color: #448ce0;
 }
 
 button:focus {outline:0;}

@@ -85,14 +85,20 @@ var displayMap = function(){
 setInterval(displayMap,dlugosc_mapy);
 
 
+
+
+
 $('#sales-btn').on("click", function(){
+
+
+
     $('.management').fadeOut();
     $('.administration').fadeOut();
     $('.sale').fadeToggle();
-
 });
 
 $('#management-btn').on("click", function(){
+
     $('.sale').fadeOut();
     $('.administration').fadeOut();
     $('.management').fadeToggle();
