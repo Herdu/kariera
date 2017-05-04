@@ -447,12 +447,22 @@ a:hover{
 }
 
 
+
+
 .about-us>h2{
     color: black;
+    font-size: 40px;
+    margin-top: 0px;
+    position: relative;
+    top: -5px;
 }
+
+
 
 .about-us>p{
     color: #343434;
+    font-size: 20px;
+    margin-bottom: 25px;
 }
 
 #contact-row{
