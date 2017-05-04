@@ -214,38 +214,14 @@ a:hover{
     padding-top: 100px;
 }
 
-#kwadrat1{
-
-    background-color: red;
-
-}
-#kwadrat2{
-    background-color: blue;
-}
-#kwadrat3{
-    background-color: purple;
-}
-#kwadrat4{
-    background-color: orange;
-}
 
 
-
-
-connection{
-    box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    border: 5px solid #818181;
-    border-radius: 100%;
-    z-index: -1;
-}
 
 
 .kariera-step>div{
     text-align: center;
-    background-color: #0f8dff;
-    color: white;
+    background-color: #4eb7ca;
+    color: #000000;
     margin-bottom: 30px;
     border: solid white 10px;
     background-size:cover;
@@ -295,6 +271,7 @@ connection{
 .kariera-step>div>h3{
     background-color: #000bff;
     margin: 0;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -676,12 +653,14 @@ button:focus {outline:0;}
     overflow: auto;
 }
 
-.people > div > img{
-    margin-left: auto;
-    margin-right: auto;
+.people-image{
+    margin-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
     width: 100%;
     max-width: 300px;
     height: auto;
+    border: solid #3465a8 2px;
 }
 .description{
     position: relative;
