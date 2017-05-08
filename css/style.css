@@ -90,6 +90,7 @@ a:hover{
 
 #img-poznaj-nas{
     border: solid #818181 2px;
+    margin-bottom: 20px;
 }
 
 
@@ -298,6 +299,7 @@ a:hover{
     font-size: 18px;
     margin-top: 90px;
     margin-bottom: 30px;
+    height: 100px;
 
 }
 
@@ -612,6 +614,10 @@ a:hover{
     .collapse.in{
         display:block !important;
     }
+    .slajder>div>img{
+        border-bottom: solid #4eb7ca 8px;
+    }
+
 }
 
 
@@ -647,6 +653,9 @@ a:hover{
         width: 150px;
         height: 65px;
     }
+    .slajder-text{
+        height: 200px;
+    }
 
 }
 
@@ -656,6 +665,8 @@ a:hover{
         width: 100px;
         height: 50px;
     }
+
+
 
 }
 
@@ -674,12 +685,14 @@ button:focus {outline:0;}
     color: white;
     margin: 0;
     overflow: auto;
+    text-align: center;
+
 }
 
 .people-image{
     margin-top: 20px;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -691,6 +704,7 @@ button:focus {outline:0;}
     background-color: #3465a8;
     text-align: center;
     overflow: auto;
+
 }
 .description > h4{
     margin: 5px;
@@ -699,4 +713,11 @@ button:focus {outline:0;}
 
 .people{
     display: none;
+}
+
+.col-centered{
+    float: none;
+    display: inline-block;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
